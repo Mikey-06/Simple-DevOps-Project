@@ -1,16 +1,16 @@
-1. Update the package list:
+- Update the package list:
 ```
 sudo yum update -y
 ```
-1. Install the Ansible package:
+- Install the Ansible package:
 ```
 sudo amazon-linux-extras install ansible2 -y
 ```
-1. Check the Ansible version
+- Check the Ansible version
 ```
 ansible --version
 ```
-1. Verify that Ansible is installed correctly by running a simple playbook
+- Verify that Ansible is installed correctly by running a simple playbook
 ```
  ansible localhost -m ping
 ```
